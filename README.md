@@ -1,9 +1,9 @@
 
-<h1 align="centre"> Group_Music_Probot V5.5 🎵 </h1> 
+<h1 align="centre"> Mss Rosan V5.5 🎵 </h1> 
 
 ### A bot that can play music on Telegram Group and Channel Voice Chats
 #### POWERED BY [PYTGCALLS](https://github.com/pytgcalls/pytgcalls)
-### Available on telegram as [@Group_Music_Probot](https://t.me/daisyxbot)
+### Available on telegram as [@Mss_Rosan_Bot](https://t.me/Mss_Rosan_Bot)
 
 <p align="center">
   <img src="https://telegra.ph/file/70008107133ae8f4d1f1f.jpg">
@@ -29,7 +29,7 @@
 
 ### 💜 Heroku/Railway
 
-[![Deploy+on+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Awesome-RJ/Group-Music-Probot/tree/Py-Tgcalls(main))
+[![Deploy+on+Heroku](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/testosmani/mss-rosan)
 
 [![Deploy+on+Railway](https://railway.app/button.svg)](https://railway.app/new/template?template=https://github.com/Awesome-RJ/Group-Music-Probot/tree/Py-Tgcalls(main)&envs=SESSION_NAME,BOT_TOKEN,BOT_USERNAME,BOT_NAME,SUPPORT_GROUP,PROJECT_NAME,ARQ_API_KEY,ASSISTANT_NAME,BG_IMAGE,UPDATES_CHANNEL,API_ID,PMPERMIT,API_HASH,SUDO_USERS,DURATION_LIMIT)
 
