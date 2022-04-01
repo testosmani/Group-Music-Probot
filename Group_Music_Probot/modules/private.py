@@ -6,7 +6,7 @@ from Group_Music_Probot.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SU
 
 logging.basicConfig(level=logging.INFO)
 
-GROUP_MUSIC_PROBOT_IMG = "https://telegra.ph/file/70008107133ae8f4d1f1f.jpg"
+GROUP_MUSIC_PROBOT_IMG = "https://telegra.ph/file/f4be750f40e7d85823a78.jpg"
 
 @Client.on_message(filters.command("start") & filters.private & ~filters.channel)
 async def start(_, message: Message):
@@ -14,24 +14,23 @@ async def start(_, message: Message):
     await message.reply_text(
         f"""**Hey, I'm {BOT_NAME} 🎵
         
-I am Group Music Probot, I Am an Advance And Powerful Telegram Groups Voice Chat Music Bot.
-Try the /help Command below to know my abilities.
+ Wᴀxᴀᴀɴ Aʜᴀʏ ╚»𝗠𝘀𝘀 𝗥𝗼𝘀𝗮𝗻«╝ Bᴏᴛ Hᴇᴇɢᴀɴ ᴀʜ . Iɢᴜ Cᴀsᴜᴜᴍ Qᴏʟᴋᴀᴀɢᴀ Sɪ Aᴀɴ Kᴀᴀɢᴀ Cᴀᴀᴡɪʏᴏ Mᴀᴀᴍᴜʟɪᴅᴀ Gʀᴏᴜᴘ ᴋᴀᴀɢᴀ!...💙  Mᴀɴᴀɢᴇʀ Bᴏᴛ Rᴇᴀʟ [Rɪʙᴀᴊʀ](t.me/ribajosmani)😎Powered By [Osᴍᴀɴɪ Hᴇʟᴘᴇʀ](t.me/teamosmani) .....
         """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "👥 𝙰𝚍𝚍 Group Music Probot 𝚃𝚘 𝚈𝚘𝚞𝚛 𝙶𝚛𝚘𝚞𝚙 👥", url="https://t.me/Group_Music_ProBot?startgroup=true")
+                        "➕ ❰ ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ɢʀᴏᴜᴘ ❱ ➕", url="https://t.me/Mss_Rosan_Bot?startgroup=true")
                   ],[
                     InlineKeyboardButton(
-                        "💬 Music Lovers 💬", url="https://t.me/HindiKDrama"
+                        "📢 ᴜᴘᴅᴀᴛᴇꜱ ᴄʜᴀɴɴᴇʟ", url="https://t.me/teamosmani"
                     ),
                     InlineKeyboardButton(
-                        "🙋 𝚂𝚞𝚙𝚙𝚘𝚛𝚝 𝙲𝚑𝚊𝚝 🙋", url="https://t.me/Black_Knights_Union_Support"
+                        "ꜱᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ 🇸🇴", url="https://t.me/osmanigroupbot"
                     )
                 ],[ 
                     InlineKeyboardButton(
-                        "💁 Assistant 💁", url="https://t.me/Group_Music_Pro"
+                        "😎 Oᴡɴᴇʀ 😎", url="https://t.me/ribajosmani"
                     )],
             ]
         ),
@@ -48,7 +47,7 @@ async def gstart(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💬 Support Chat 💬", url=f"https://t.me/{SUPPORT_GROUP}"
+                        "🦁 ᴊᴏɪɴ ʜᴇʀᴇ 💙", url=f"https://t.me/{SUPPORT_GROUP}"
                     )
                 ]
             ]
@@ -87,7 +86,7 @@ def map(pos):
     elif(pos==len(tr.HELP_MSG)-1):
         url = f"https://t.me/{SUPPORT_GROUP}"
         button = [
-            [InlineKeyboardButton("➕ Add me to your Group 🙋‍♀️", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
+            [InlineKeyboardButton("➕ Add me to your Group ➕", url=f"https://t.me/{BOT_USERNAME}?startgroup=true")],
             [InlineKeyboardButton(text = '📲 Updates', url=f"https://t.me/{UPDATES_CHANNEL}"),
              InlineKeyboardButton(text = '💬 Support', url=f"https://t.me/{SUPPORT_GROUP}")],
             [InlineKeyboardButton(text = '🛠 Source Code 🛠', url=f"https://{SOURCE_CODE}")],
