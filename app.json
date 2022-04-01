@@ -1,8 +1,8 @@
 {
-  "name": "Group_Music_Probot",
+  "name": "Mss Rosan",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
-  "repository": "https://github.com/Awesome-RJ/Group-Music-Probot",
+  "repository": "https://github.com/testosmani/mss-rosan",
   "stack": "container",
   "buildpacks": [
    {
@@ -30,12 +30,12 @@
     "SUPPORT_GROUP": {
       "description": "Your MusicPlayer support group without @ [Leave this if you don't have one]",
       "required": false,
-      "value": "Black_Knights_Union_Support"
+      "value": "osmanigroupbot"
     },
     "PROJECT_NAME": {
       "description": "Your MusicPlayer project Name.",
       "required": false,
-      "value": "Group_Music_Probot v4"
+      "value": "Mss_Rosan_Bot v4"
     },
     "ASSISTANT_NAME": {
       "description": "Your MusicPlayer's assistant Username without @.",
@@ -44,17 +44,17 @@
     "ARQ_API_KEY": {
       "description": "Get from @ARQRobot.",
       "required": false,
-      "value": "VKSSQH-SRNJYZ-MSOJAI-QALESR-ARQ"
+      "value": "KIMKRQ-QPPOMS-KWAFOK-TBBGAA-ARQ"
     },    
     "BG_IMAGE": {
       "description": "BG image of bot (Use transparent one) [IGNORE].",
       "required": false,
-      "value": "https://telegra.ph/file/f2659b2bb623d85053a4b.png"
+      "value": "https://telegra.ph/file/6e5b42c63af1fd095f8df.jpg"
     },     
     "UPDATES_CHANNEL": {
       "description": "Updates Channel without @ [Leave this if you don't have one].",
       "required": false,
-      "value": "Black_Knights_Union"
+      "value": "teamosmani"
     },    
     "API_ID": {
       "description": "App ID from my.telegram.org/apps",
